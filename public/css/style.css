@@ -1,0 +1,147 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+.hidden{
+    display: none;
+}
+h4 small{
+    font-size: .4em;
+}
+.collection-reply{
+    padding-left: 102px !important;
+    padding-right: 50px !important;
+    min-height: 50px !important;
+}
+.title small{
+    margin-left: 5px;
+}
+.replies{
+    display: none;
+}
+.replies-show{
+    display: block !important;
+}
+.reply-icons{
+    position: absolute !important;
+    top: 10px;
+    left: 25px;
+    color: lightgrey;
+}
+.reply-img{
+    left: 45px !important;
+}
+.reply-count:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a#pref-settings{
+    color: #26a69a;
+}
+.reply-count{
+    margin-right: 15px;
+}
+.reply-icon{
+    position: relative;
+    top: 1px;
+}
+.preloader-wrapper{
+    left: 45%;
+}
+.clear{
+    clear: both;
+}
+h6.h6-form{
+    margin-bottom: 30px;
+}
+.sidenav-trigger{
+    position: relative;
+    bottom: -5px;
+}
+.sidenav-trigger:hover{
+    cursor: pointer;
+}
+#logout-icon{
+    position: relative;
+    bottom: -2px;
+}
+.btn-white{
+    background: white;
+    color: #26a69a;
+    border: 1px solid #26a69a;
+}
+.box {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.nav-wrapper{
+    padding: 0 33px;
+}
+
+.content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 33px;
+}
+
+.footer {
+    padding: 20px;
+    margin: 33px;
+    text-align: right;
+    font-size: 11px;
+    opacity: 0.5;
+}
+.footer a {
+    color: #454545;
+}
+.delete-icon{
+    color: #26a69a;
+}
+.delete-icon:hover{
+    cursor: pointer;
+}
+b#b-search{
+    display: block;
+    font-size: 1.4em;
+    padding-right: 10px;
+}
+.collection-item p{
+    width: 90%;
+}
+.post-img{
+    margin: 7px 0;
+    display: block;
+}
+.responsive-img{
+    min-height: auto !important;
+}
+.settings{
+    color: black !important;
+    font-size: .4em;
+    position: relative;
+    right: -10px;
+}
+.border-box{
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+.tags{
+    color: #26a69a;
+    text-decoration: underline;
+}
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span{
+    padding: 0 10px 0 28px;
+}
+.radio-buttons{
+    padding-bottom: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .content{
+        margin: 10px 5px;
+    }
+}
